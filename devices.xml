@@ -9,11 +9,9 @@
   <linkfile src="misc/no-op/Android.mk" dest="hardware/qcom/sdm845/Android.mk" />
 </project>
 
-<!--msm8956-->
-<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="master" />
-<project path="device/sony/blanc" name="device-sony-blanc" groups="device" remote="sony" revision="master" />
-<project path="device/sony/kugo" name="android_device_sony_kugo" groups="device" remote="dark" revision="9.x" />
-<project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="sony" revision="master" />
+<!--msm8996-->
+<project path="device/sony/tone" name="device-sony-tone" groups="device" remote="sony" revision="master" />
+<project path="device/sony/kagura" name="device-sony-kagura" groups="device" remote="dark" revision="9.x" />
 
 <!--hardware-->
 <remove-project name="platform/hardware/qcom/gps" />
